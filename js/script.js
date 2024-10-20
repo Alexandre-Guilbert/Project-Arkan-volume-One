@@ -9,14 +9,20 @@ function lancerDe() {
     document.getElementById("choix-simple-1").style.display = "none";
     document.getElementById("choix-simple-2").style.display = "none";
     document.getElementById("choix-simple-3").style.display = "none";
-    // Affiche la possibilité correspondante selon le résultat
+    document.getElementById("choix-mal").style.display = "none";
+    document.getElementById("choix-bon").style.display = "none";
+    // Affiche la possibilité correspondante selon le résultat du chapitre 1
     if (resultat <= 7) {
         document.getElementById("choix-simple-1").style.display = "block";
+        document.getElementById("choix-bon").style.display = "block";
     } else if (resultat <= 14) {
         document.getElementById("choix-simple-2").style.display = "block";
+        document.getElementById("choix-bon").style.display = "block";
     } else {
         document.getElementById("choix-simple-3").style.display = "block";
+        document.getElementById("choix-bon").style.display = "block";
     }
+
 }
 function cacherBouton() {
     // Sélectionne le bouton par son id et change son style pour le cacher

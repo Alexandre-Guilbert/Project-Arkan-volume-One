@@ -17,7 +17,8 @@
 {
     #img-header
     {
-       
+        width: 20rem;
+        margin-bottom: 10%;
     }
 }
 @media all and (max-width: 991px)
@@ -102,6 +103,7 @@
   @media all and (max-width:  991px) {
     #titres-header {
         width: 500px;
+        margin: 1.3rem;
       
     }
   }
@@ -113,10 +115,7 @@ header{
     background-color: black;
     padding: 1rem;
     width: 97%;
-    height: 10rem;
-}
-#sous-header{
-    display:block;
+    height: 14rem;
 }
 #sous-footer{
 padding: 1rem;
@@ -139,7 +138,6 @@ body{
     border-radius: 10rem;
     margin-bottom: 0.3rem;
 }
-
 #color-header-2{
     color: bisque;
     text-decoration: none;
@@ -158,9 +156,7 @@ body{
 #img-header{
     padding: 1rem;
     width: 12rem;
-    height: 8rem;
-    display: flex;
-    
+    height: 5rem;
 }
 #liens-header{
     display: flex ;
@@ -170,6 +166,7 @@ body{
     margin-right: auto;
     width: 40rem;
     height: 5rem;
+    padding: 1rem;
     animation-duration: 3s;
     animation-name: slidein;
     }
@@ -184,16 +181,13 @@ body{
           width: 100%;
         }
       }
-
 #header-identifications{
     display: flex;
     padding: 1rem;
-    
 }
 #musique{
     text-align: center;
     padding: 1rem;
-    
 }
 #titres{
     background-color:#6d004c;
@@ -209,20 +203,19 @@ body{
     width: 40rem;
     height: 5rem;
 }
-
 #titres-header{
     background-color:#6d004c;
     border: solid;
     border-color: bisque;
     color: bisque;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -10rem;
     max-width: 40rem;
-    height: 5rem;
+    height: 4rem;
+    padding: 1rem;
 }
 #paragraphes{
     background-color: #6d004c;
@@ -234,7 +227,6 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
 #paragraphes-header{
     background-color: #6d004c;
     color: bisque;
@@ -273,11 +265,9 @@ body{
     flex-wrap: wrap;
     gap: 10px;
 }
-
 .gallery-item:hover {
     transform: scale(1.05);
 }
-
 .close {
     position: absolute;
     top: 15px;
@@ -303,7 +293,6 @@ body{
     text-decoration: none;
 }
 /*main*/
-
 #paragraphe-des{
     background-color: #6d004c;
     color: bisque;
@@ -361,6 +350,111 @@ body{
     padding: 1rem;
     width: 10rem;
     border-radius: 10rem;
+    display: none;
+}
+#choix-simple-5{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-6{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-7{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-8{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-9{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-10{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-11{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-12{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-13{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-14{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-simple-15{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-bon{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
+}
+#choix-mal{
+    background-color:#6d004c;
+    color: bisque;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 10rem;
+    display: none;
 }
 #titres-situations{
     background-color:#6d004c;
@@ -405,7 +499,6 @@ body{
     color: bisque;
 }
 /*footer*/
-
 footer{
     background-color: black;
     padding: 1rem;
@@ -447,36 +540,29 @@ footer{
     font-family: sans-serif;
     letter-spacing: 1px;
   }
-
 caption {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
   }
-  
   thead,
   tfoot {
     background-color: rgb(0, 0, 0);
   }
-
   th,
   td {
     border: 1px solid rgb(0, 0, 0);
     padding: 8px 10px;
   }
-  
   td:last-of-type {
     text-align: center;
   }
-  
   tbody > tr:nth-of-type(even) {
     background-color:#6d004c
   }
-  
   tfoot th {
     text-align: right;
   }
-  
   tfoot td {
     font-weight: bold;
   }
@@ -486,6 +572,7 @@ caption {
     padding: 1rem;
   }
 #img-trilogie{
+    margin: 1rem;
     width: 30rem;
     border: solid;
     border-color:bisque;
@@ -499,7 +586,6 @@ caption {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    
 }
 #paragraphes-trilogie{
     background-color: #6d004c;
@@ -651,7 +737,6 @@ caption {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
-   
 }
 /*projets futures*/
 #paragraphes-p{
