@@ -38,4 +38,4 @@ Contacts
 Auteur : Alexandre Guilbert
 Email : a.guilbert@labo-ve.fr
 
-note de fin : merci d'avoir pris le temps de le dire, si probleme il y a hésitez pas à me contacter
+note de fin : merci d'avoir pris le temps de le lire, en cas de problemes, n'hésitez pas à me contacter
